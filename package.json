@@ -1,0 +1,14 @@
+{
+  "name": "mario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "reload -b"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+  }
+}
