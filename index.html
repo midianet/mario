@@ -8,11 +8,16 @@
     <script src="./js/script.js" defer></script>
     <script type="text/javascript" src="https://livejs.com/live.js"></script>
 </head>
-<body>
+<body style="background-color:rgb(35, 160, 35) ;">
     <div class="game-board">
-        <img src="./img/clouds.png" alt="clouds" class="clouds">
-        <img src="./img/mario.gif" alt="mario" class="mario">
-        <img src="./img/pipe.png" alt="pipe" class="pipe">
+        <img src="./img/game_over.png"  alt="game over" class="game-over">
+        <img src="./img/clouds.png"     alt="clouds" class="clouds">
+        <img src="./img/mario-stop.gif" alt="mario"  class="mario">
+        <img src="./img/pipe.png"       alt="pipe"   class="pipe">
+        <div class="points">Pontos: 0</div>
+    </div>
+    <div class="menu">
+        <button onclick="start()" class="start">Iniciar</button>
     </div>
 </body>
 </html>
